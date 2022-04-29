@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="../css/tasks.css">
+    <link rel="stylesheet" href="../css/nav-bar.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/edit_from.css">
+
+<title>TodoApp</title>
+</head>
+    <body>
+        <header>
+            <nav></nav>
+            <div class="navbar">
+                <div class="app-title">
+                    <h1><a href="boards.html">TodoApp</a></h1>
+                </div>
+                <div class="logout-block">
+                    <button class="logout" id="logout-btn">Logout</button>
+                </div>
+            </div>
+        </header>
+
+    <main class="app">
+        <div id="editModal" class="modal">
+            <div class="modal-content">
+                <div class="modal-form">
+                    <input type="text" id="taskTitle" class="task_title">
+                </div>
+                <textarea class="desc_input" id="descInput" ></textarea>
+                <button type="submit" class="save-btn" id="saveTaskEdit">Save</button>
+            </div>
+        </div>
+
+        <section class="board-form">
+            <div class="infos">
+                <div class="infos_title_skeleton"></div>
+                <div class="infos_title"><h3 id="boardTitle"> </h3></div>
+            </div>
+            <div class="add-task-form">
+                <input class="task-value" id="taskValue" placeholder="Add task">
+                <button class="add-task" id="addTask">+</button>
+            </div>
+        </section>
+
+        <section class="columns">
+            <div class="column dropzone">
+                <h2 class="column-title">Todo</h2>
+                <ul class="tasks" id="todo">
+                    <li class="task_skeleton"></li>
+                    <li class="task_skeleton"></li>
+                    <li class="task_skeleton"></li>
+                </ul>
+            </div>
+            <div class="column dropzone">
+                <h2 class="column-title">Overdue</h2>
+                <ul class="tasks" id="review">
+                </ul>
+            </div>
+            <div class="column dropzone">
+                <h2 class="column-title">Done</h2>
+                <ul class="tasks" id="done">
+                </ul>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
