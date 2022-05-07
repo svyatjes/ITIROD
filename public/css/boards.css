@@ -55,8 +55,8 @@
 .board .trash {
     position: relative;
 
-    top: 55%;
-    left: 75%;
+    /* top: 55%;
+    left: 75%; */
 
     font-family: 'Karla', sans-serif;
     background-color: transparent;
@@ -72,8 +72,8 @@
 .board .pencil {
     position: relative;
 
-    top: -15%;
-    left: 87%;
+    /* top: -15%;
+    left: 87%; */
 
     font-family: 'Karla', sans-serif;
     background-color: transparent;

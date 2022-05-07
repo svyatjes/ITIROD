@@ -13,9 +13,5 @@
 
 [project in figma](https://www.figma.com/file/JNbjdXZgcfVIvvFddzhlro/Todo-App?node-id=0%3A1)
 
-# GitHub Pages:
-
-[/index](https://svyatjes.github.io/ITIROD/)  
-[/login](https://svyatjes.github.io/ITIROD/html/login.html)  
-[/boards](https://svyatjes.github.io/ITIROD/html/boards.html)  
-[/tasks](https://svyatjes.github.io/ITIROD/html/tasks.html)  
+# Deploy:
+https://todo-app-90a7c.web.app/
